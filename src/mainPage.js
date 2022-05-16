@@ -11,6 +11,7 @@ let mainPage = (() => {
   nav.classList.add("nav");
   let homeButton = document.createElement("span");
   homeButton.textContent = "Home";
+  homeButton.classList.add("active");
   let menuButton = document.createElement("span");
   menuButton.textContent = "Menu";
   let contactButton = document.createElement("span");
