@@ -1,3 +1,4 @@
+import './homeStyle.css'
 import chef from './PizzaUnsplashBenuMarinescu.jpg';
 
 let homePage = (() => {

@@ -1,0 +1,14 @@
+.chefImage {
+  width: 16vw;
+}
+
+figcaption {
+  text-align: center;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.15rem;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+}
