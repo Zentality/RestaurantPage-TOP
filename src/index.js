@@ -2,13 +2,14 @@ import './styles.css'
 import mainPage from './mainPage';
 import homePage from './home';
 import menuPage from './menuPage';
+import contactPage from './contactPage';
 
 let page = document.querySelector("#content");
 page.appendChild(mainPage);
 
 let contentBlock = document.querySelector(".tab");
 
-contentBlock.appendChild(homePage);
+contentBlock.appendChild(contactPage);
 
 let navButtons = document.querySelectorAll(".nav span");
 
