@@ -1,0 +1,8 @@
+.contactPage {
+  display: flex;
+  flex-direction: column;
+}
+
+h2:nth-child(n + 2) {
+  margin-top: calc(8px + 4vh);
+}

@@ -2,6 +2,7 @@ import './contactPage.css'
 
 let contactPage = (() => {
   let contactPage = document.createElement("div");
+  contactPage.classList.add("contactPage")
 
   let openHoursHeader = document.createElement("h2");
   openHoursHeader.textContent = "We are open 7 days a week!";

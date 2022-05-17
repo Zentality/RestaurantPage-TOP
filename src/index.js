@@ -9,7 +9,7 @@ page.appendChild(mainPage);
 
 let contentBlock = document.querySelector(".tab");
 
-contentBlock.appendChild(contactPage);
+contentBlock.appendChild(homePage);
 
 let navButtons = document.querySelectorAll(".nav span");
 
@@ -29,6 +29,7 @@ navButtons.forEach((button) => {
         break;
       case "Contact":
         contentBlock.textContent = "";
+        contentBlock.appendChild(contactPage);
         break;
     }
   })
