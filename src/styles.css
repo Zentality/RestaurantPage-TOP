@@ -9,6 +9,7 @@
 body {
   background: fixed no-repeat center / cover url('./PizzaUnsplashIvanTorres.jpg');
   height: 100vh;
+  overflow-y: overlay;
 }
 
 #content {
