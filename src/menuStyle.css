@@ -1,8 +1,14 @@
 .menuImage {
-  width: 15vw;
+  margin-right: calc(8px + 2vw);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.menuImage img {
+  width: 12vw;
   height: 12vw;
   object-fit: cover;
-  margin-right: 32px;
   border-radius: 4px;
 }
 

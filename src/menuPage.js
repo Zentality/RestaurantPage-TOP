@@ -14,10 +14,12 @@ let menuPage = (() => {
     let textContainer = document.createElement("div");
     textContainer.classList.add("textContainer");
     
+    let menuImageContainer = document.createElement("div");
+    menuImageContainer.classList.add("menuImage");
     let menuImage = document.createElement("img");
-    menuImage.classList.add("menuImage");
     menuImage.src = imgSrc;
-    menuItem.append(menuImage, textContainer);
+    menuImageContainer.append(menuImage);
+    menuItem.append(menuImageContainer, textContainer);
     
     let menuItemTitle = document.createElement("h2");
     menuItemTitle.textContent = newMenuItemTitle;

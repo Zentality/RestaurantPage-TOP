@@ -8,7 +8,7 @@ page.appendChild(mainPage);
 
 let contentBlock = document.querySelector(".tab");
 
-contentBlock.appendChild(menuPage);
+contentBlock.appendChild(homePage);
 
 let navButtons = document.querySelectorAll(".nav span");
 
@@ -24,6 +24,7 @@ navButtons.forEach((button) => {
         break;
       case "Menu":
         contentBlock.textContent = "";
+        contentBlock.appendChild(menuPage);
         break;
       case "Contact":
         contentBlock.textContent = "";
