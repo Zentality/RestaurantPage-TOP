@@ -1,8 +1,25 @@
+h2:nth-child(n + 2) {
+  margin-top: calc(8px + 4vh);
+}
+
+h2 {
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
+table {
+  border: none;
+  min-width: calc(250px + 20%);
+  border-collapse: collapse;
+}
+
+table>tr:nth-child(2n) {
+  background-color: rgba(255,255,255,0.2);
+}
+
 .contactPage {
   display: flex;
   flex-direction: column;
-}
-
-h2:nth-child(n + 2) {
-  margin-top: calc(8px + 4vh);
+  align-items: center;
+  justify-content: space-between;
 }
