@@ -3,6 +3,7 @@ import mainPage from './mainPage';
 import homePage from './home';
 import menuPage from './menuPage';
 import contactPage from './contactPage';
+import copyright from './copyright';
 
 let page = document.querySelector("#content");
 page.appendChild(mainPage);
@@ -10,6 +11,7 @@ page.appendChild(mainPage);
 let contentBlock = document.querySelector(".tab");
 
 contentBlock.appendChild(homePage);
+contentBlock.appendChild(copyright);
 
 let navButtons = document.querySelectorAll(".nav span");
 
@@ -32,5 +34,6 @@ navButtons.forEach((button) => {
         contentBlock.appendChild(contactPage);
         break;
     }
+    contentBlock.appendChild(copyright);
   })
 })
